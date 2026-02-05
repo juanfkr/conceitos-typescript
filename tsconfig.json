@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",         // Module system
+    "outDir": "./dist",          // Output directory
+    "rootDir": "./src",          // Root directory
+    "strict": true,              // Enable strict type checking
+    "esModuleInterop": true,     // Enable ES module interop
+    "skipLibCheck": true,        // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],       // Files to include
+  "exclude": ["node_modules", "dist"] // Files to exclude
+}
