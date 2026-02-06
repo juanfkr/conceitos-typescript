@@ -1,3 +1,5 @@
+export {};
+
 // permite a mistura de dois ou mais tipos
 type ID = number | string;
 
@@ -8,4 +10,4 @@ function print(value: string | number) {
         return value.toUpperCase();
     }
     return value;
-}''
+}

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "ES2015",
     "module": "commonjs",         // Module system
     "outDir": "./dist",          // Output directory
     "rootDir": "./src",          // Root directory
